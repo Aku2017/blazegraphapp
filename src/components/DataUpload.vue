@@ -147,7 +147,7 @@ export default {
       formData.append('graphId', file.graphId);
 
       try {
-        const response = await axios.post('http://localhost:5009/import_file', formData, {
+        const response = await axios.post('http://102.37.137.65/5009/import_file', formData, {
           headers: {
             'Content-Type': 'multipart/form-data'
           }

@@ -185,7 +185,7 @@ export default {
   methods: {
     async fetchDatabaseInfo() {
       try {
-        const response = await axios.get('http://localhost:5009/database_info');
+        const response = await axios.get('http://102.37.137.65/5009/database_info');
         this.databaseInfo = response.data;
         this.isDatabaseConnected = true;
       } catch (error) {

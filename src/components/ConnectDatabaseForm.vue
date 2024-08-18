@@ -69,7 +69,7 @@ export default {
         };
 
         // Make a POST request to your Flask API
-        const response = await axios.post('http://localhost:5009/connect_database', payload, {
+        const response = await axios.post('http://102.37.137.65/5009/connect_database', payload, {
           headers: {
             'Content-Type': 'application/json'
           }
